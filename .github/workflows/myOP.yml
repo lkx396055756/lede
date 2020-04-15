@@ -10,11 +10,11 @@
 name: 我的固件1.0
 
 on:
-  schedule:
-    - cron: 0 20 * * *
-  push:
-    branches: 
-      - master
+  # schedule:
+  #   - cron: 0 20 * * *
+  # push:
+  #  branches: 
+  #    - master
 jobs:
 
   build:
